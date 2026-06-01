@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Loam &amp; Lattice — Field Office</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="layout">
+  <aside class="sidebar">
+    <div class="brandmark">
+      <span class="brand-name">Loam<br>&amp; Lattice</span>
+      <span class="brand-tag">Property intelligence,<br>rooted and rendered.</span>
+    </div>
+    <nav class="sidenav">
+      <a class="nav-item" href="home.html"><span class="nav-num">01</span><span class="nav-label">/ REGISTRY</span></a>
+      <a class="nav-item" href="products.html"><span class="nav-num">02</span><span class="nav-label">/ LISTINGS</span></a>
+      <a class="nav-item" href="services.html"><span class="nav-num">03</span><span class="nav-label">/ SURVEY</span></a>
+      <a class="nav-item" href="detail.html"><span class="nav-num">04</span><span class="nav-label">/ DOSSIER</span></a>
+      <a class="nav-item active" href="contact.html"><span class="nav-num">05</span><span class="nav-label">/ FIELD OFFICE</span></a>
+    </nav>
+    <div class="side-block">
+      <h4>OFFICE HOURS</h4>
+      <p class="mono">MON–FRI 07:30–18:00</p>
+      <p class="mono">SAT 09:00–13:00</p>
+      <p class="mono">SUN closed</p>
+    </div>
+    <div class="side-block">
+      <h4>COORDINATES</h4>
+      <p class="mono">38.7100°N</p>
+      <p class="mono">121.0400°W</p>
+      <p class="mono">ELEV 142m</p>
+    </div>
+  </aside>
+
+  <main class="content">
+    <header class="contact-head scan">
+      <h1>Field Office</h1>
+      <p class="lede">Bring us a parcel code, a budget, or a question with no number attached yet. We answer with the same rigor we bring to a survey line.</p>
+    </header>
+
+    <div class="contact-cols">
+      <section class="inquiry">
+        <h2 class="section-title">Submit Inquiry <span class="mono">FRM / 01</span></h2>
+        <form class="ledger-form" onsubmit="return false">
+          <label class="mono">INQUIRY TYPE</label>
+          <select disabled><option>Acquisition</option><option>Valuation</option><option>Survey</option></select>
+
+          <label class="mono">PROPERTY CODE</label>
+          <input type="text" placeholder="e.g. CDB-042" disabled>
+
+          <label class="mono">BUDGET RANGE</label>
+          <input type="text" placeholder="$ min — $ max" disabled>
+
+          <label class="mono">YOUR NAME</label>
+          <input type="text" placeholder="Full name" disabled>
+
+          <label class="mono">EMAIL</label>
+          <input type="text" placeholder="you@field.address" disabled>
+
+          <label class="mono">MESSAGE</label>
+          <textarea rows="5" placeholder="Tell us about the land you have in mind." disabled></textarea>
+
+          <button class="btn" type="button">FILE INQUIRY ▸</button>
+        </form>
+      </section>
+
+      <aside class="contacts-side">
+        <h2 class="section-title">Direct Contacts <span class="mono">DIR / 02</span></h2>
+        <table class="data">
+          <thead><tr><th>AGENT</th><th>DISTRICT</th><th class="num">LINE</th></tr></thead>
+          <tbody>
+            <tr><td>R. Halloway</td><td>Eastern Bench</td><td class="num mono">x101</td></tr>
+            <tr><td>M. Devereaux</td><td>River District</td><td class="num mono">x118</td></tr>
+            <tr><td>T. Okafor</td><td>Highland Ring</td><td class="num mono">x124</td></tr>
+            <tr><td>S. Ainsworth</td><td>Village Edge</td><td class="num mono">x132</td></tr>
+          </tbody>
+        </table>
+
+        <h3 class="sub-h">Office Locations</h3>
+        <div class="locations">
+          <div class="loc">
+            <svg viewBox="0 0 60 48" class="siteplan"><rect width="60" height="48" fill="#0e0f0b"/><line x1="0" y1="32" x2="60" y2="32" stroke="#2a2c22"/><rect x="20" y="18" width="16" height="14" fill="none" stroke="#9bbf6a" stroke-width="1"/><circle cx="28" cy="25" r="2" fill="#5fd0b0"/></svg>
+            <div><b>Bench House</b><p class="mono">14 Plat Row, Lindell</p></div>
+          </div>
+          <div class="loc">
+            <svg viewBox="0 0 60 48" class="siteplan"><rect width="60" height="48" fill="#0e0f0b"/><path d="M0 36 Q30 22 60 34" stroke="#5fd0b0" fill="none" stroke-width="0.8"/><rect x="24" y="14" width="14" height="12" fill="none" stroke="#9bbf6a" stroke-width="1"/><circle cx="31" cy="20" r="2" fill="#c2884a"/></svg>
+            <div><b>River Annex</b><p class="mono">3 Quay Lane, Heronford</p></div>
+          </div>
+        </div>
+      </aside>
+    </div>
+
+    <section class="guarantee scan">
+      <div class="accent-rule"></div>
+      <div>
+        <h3>Response within <span class="mono">one business day</span>.</h3>
+        <p>Every inquiry is logged to the registry and assigned a district agent before sundown. No automated runaround — a person who knows the soil reads your note.</p>
+      </div>
+    </section>
+  </main>
+</div>
+
+<footer class="registry">
+  <div class="reg-grid">
+    <div><h6>REGISTRY</h6><a href="home.html"><span class="mono">R-01</span> Front Desk</a><a href="products.html"><span class="mono">R-02</span> Listings</a><a href="detail.html"><span class="mono">R-03</span> Dossiers</a></div>
+    <div><h6>SURVEY</h6><a href="services.html"><span class="mono">S-01</span> Valuation</a><a href="services.html"><span class="mono">S-02</span> Surveying</a><a href="services.html"><span class="mono">S-03</span> Advisory</a></div>
+    <div><h6>DISTRICTS</h6><a href="products.html"><span class="mono">D-01</span> Eastern Bench</a><a href="products.html"><span class="mono">D-02</span> River District</a><a href="products.html"><span class="mono">D-03</span> Highland Ring</a></div>
+    <div><h6>OFFICE</h6><a href="contact.html"><span class="mono">O-01</span> Field Office</a><a href="contact.html"><span class="mono">O-02</span> Agents</a><a href="contact.html"><span class="mono">O-03</span> Locations</a></div>
+    <div><h6>LEGAL</h6><a href="home.html"><span class="mono">L-01</span> Disclosures</a><a href="home.html"><span class="mono">L-02</span> Privacy</a><a href="home.html"><span class="mono">L-03</span> Terms</a></div>
+    <div><h6>DATA</h6><a href="home.html"><span class="mono">X-01</span> Sources</a><a href="home.html"><span class="mono">X-02</span> Methodology</a><a href="home.html"><span class="mono">X-03</span> API Notes</a></div>
+  </div>
+  <div class="reg-foot mono">LOAM &amp; LATTICE · PLAT REGISTRY · EST. 2019 · 38.71°N 121.04°W</div>
+</footer>
+</body>
+</html>

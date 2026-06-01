@@ -1,0 +1,46 @@
+{
+  "tiers": {
+    "easy": {
+      "n_tasks": 6,
+      "reward_mean": 0.7761,
+      "reward_std": 0.0243,
+      "reward_min": 0.7335,
+      "reward_max": 0.8085,
+      "structure": 0.7748,
+      "block_color": 0.957,
+      "block_ssim": 0.4472,
+      "edge_ssim": 0.8088,
+      "text_color": 0.9067
+    },
+    "medium": {
+      "n_tasks": 7,
+      "reward_mean": 0.7651,
+      "reward_std": 0.0179,
+      "reward_min": 0.7404,
+      "reward_max": 0.7957,
+      "structure": 0.8056,
+      "block_color": 0.9521,
+      "block_ssim": 0.393,
+      "edge_ssim": 0.7197,
+      "text_color": 0.8966
+    },
+    "hard": {
+      "n_tasks": 8,
+      "reward_mean": 0.7551,
+      "reward_std": 0.0198,
+      "reward_min": 0.7121,
+      "reward_max": 0.778,
+      "structure": 0.8251,
+      "block_color": 0.9272,
+      "block_ssim": 0.4153,
+      "edge_ssim": 0.6072,
+      "text_color": 0.8705
+    }
+  },
+  "fleet": {
+    "n_tasks": 21,
+    "n_trials": 62,
+    "reward_mean": 0.7644,
+    "reward_std": 0.0223
+  }
+}

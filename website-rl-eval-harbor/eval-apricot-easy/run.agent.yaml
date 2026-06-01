@@ -1,0 +1,26 @@
+# Run the real agent (Claude Code, Opus 4.7) on this task. Paths are relative to
+# this config file's dir (the task dir), so jobs land in <task>/jobs.
+jobs_dir: ./jobs
+n_attempts: 3
+
+orchestrator:
+  n_concurrent_trials: 3
+
+environment:
+  type: modal
+  kwargs:
+    sandbox_timeout_secs: 14400        # 4h hard ceiling
+    sandbox_idle_timeout_secs: 3600    # 1h of inactivity before culling
+
+agents:
+  - name: claude-code
+    model_name: anthropic/claude-opus-4-7
+    kwargs:
+      disallowed_tools: "WebSearch WebFetch"
+
+tasks:
+  - path: .
+
+
+artifacts:
+  - /app/

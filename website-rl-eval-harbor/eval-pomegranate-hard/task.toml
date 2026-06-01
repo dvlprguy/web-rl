@@ -1,0 +1,20 @@
+version = "1.0"
+
+[task]
+name = "website-rl-eval/eval-pomegranate-hard"
+description = "Replicate a generated multi-page website design from its screenshots (static HTML/CSS)."
+
+[metadata]
+seed = "pomegranate"
+difficulty = "hard"
+
+[verifier]
+timeout_sec = 1200.0
+
+[agent]
+timeout_sec = 7200.0
+
+[environment]
+build_timeout_sec = 1800.0
+allow_internet = true
+workdir = "/app"

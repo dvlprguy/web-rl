@@ -1,0 +1,11 @@
+# Validate the grader ceiling: the reference solution should score ~1.0.
+job_name: "eval-pear-easy-oracle"
+jobs_dir: "/Users/asingh/Desktop/work-trial/website-rl-eval-harbor/jobs"
+n_attempts: 1
+environment:
+  type: "modal"
+agents:
+  - name: "oracle"
+datasets:
+  - path: "/Users/asingh/Desktop/work-trial/website-rl-eval-harbor"
+    task_names: ["eval-pear-easy"]

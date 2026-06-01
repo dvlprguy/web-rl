@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Plum &amp; Ladle — Dish Dossier</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="toprail">
+  <div class="rail-inner">
+    <span class="status status-open">● Kitchen OPEN — last orders 22:30</span>
+    <label class="zone-sel">Zone:<select aria-label="Zone"><option>Z1 · Old Quarter</option><option>Z2 · Riverside</option></select></label>
+    <div class="ticker"><span class="ticker-track">SPECIALS · SMOKED PLUM BROTH £8.50 · 14min · CHARRED LEEK BOWL £11.00 · 18min · LADLE CHILLI £9.75 · 12min ·</span></div>
+  </div>
+</div>
+<header class="masthead">
+  <a class="wordmark-sm" href="home.html">Plum&nbsp;&amp;&nbsp;Ladle</a>
+  <nav class="mainnav">
+    <a href="home.html">Tonight</a>
+    <a href="gallery.html">Menu Wall</a>
+    <a href="detail.html" class="active">Dish Dossier</a>
+    <a href="about.html">Our Story</a>
+    <a href="team.html">The Brigade</a>
+    <a href="contact.html">Reach the Pass</a>
+    <a href="gallery.html">Order</a>
+  </nav>
+  <form class="search" action="gallery.html"><input type="search" placeholder="Search…" aria-label="Search"></form>
+</header>
+
+<main>
+  <nav class="breadcrumb"><a href="gallery.html">Menu</a> / <a href="gallery.html">Bowls</a> / <span>Charred Leek Bowl</span></nav>
+
+  <section class="band band-teal split-band">
+    <span class="ladle-tab">Dish Dossier</span>
+    <div class="split">
+      <div class="split-art">
+        <svg viewBox="0 0 300 220" class="svg-art" role="img" aria-label="Charred leek bowl">
+          <ellipse cx="150" cy="140" rx="110" ry="30" stroke="#7a3a6e" stroke-width="2.5" fill="none"/>
+          <path d="M40 140 q110 80 220 0" stroke="#1fae8b" stroke-width="2.5" fill="none"/>
+          <circle cx="150" cy="120" r="22" stroke="#f2b134" stroke-width="2.5" fill="none"/>
+          <path d="M110 90 q-6 -30 8 -48" stroke="#1fae8b" stroke-width="2.5" fill="none"/>
+          <path d="M150 84 q-6 -34 8 -54" stroke="#1fae8b" stroke-width="2.5" fill="none"/>
+          <path d="M190 90 q-6 -30 8 -48" stroke="#1fae8b" stroke-width="2.5" fill="none"/>
+          <path d="M210 70 q-4 -10 4 -16 q-8 8 2 16" stroke="#f2b134" stroke-width="2.5" fill="none"/>
+        </svg>
+      </div>
+      <aside class="order-panel">
+        <h1>Charred Leek Bowl</h1>
+        <p>Sweet grilled leeks over nutty barley, a slow-set egg and a fistful of toasted seeds. Quiet but devastating.</p>
+        <fieldset><legend>Size</legend>
+          <label><input type="radio" name="sz" checked> Regular <span class="chip chip-amber">£11.00</span></label>
+          <label><input type="radio" name="sz"> Large <span class="chip chip-amber">£14.00</span></label>
+        </fieldset>
+        <fieldset><legend>Add-ons</legend>
+          <label><input type="checkbox"> Extra egg <span class="chip chip-amber">+£1.50</span></label>
+          <label><input type="checkbox"> Chilli crisp <span class="chip chip-amber">+£0.80</span></label>
+          <label><input type="checkbox"> Crumbled feta <span class="chip chip-amber">+£2.00</span></label>
+        </fieldset>
+        <div class="running-total">Running total <span class="chip chip-amber big">£11.00</span></div>
+        <a class="add-btn wide" href="gallery.html">Add to order</a>
+      </aside>
+    </div>
+  </section>
+
+  <section class="band band-plum slim">
+    <div class="spec-strip">
+      <span class="chip chip-amber">540 kcal</span>
+      <span class="chip chip-amber">18 min prep</span>
+      <span class="chip chip-amber">🌶 0/5</span>
+      <span class="chip chip-amber">Gluten · Egg</span>
+      <span class="chip chip-amber">ID #BWL-0042</span>
+    </div>
+  </section>
+
+  <section class="band band-teal">
+    <span class="ladle-tab">Ingredients &amp; build</span>
+    <div class="two-col">
+      <div>
+        <h3>Ingredients &amp; sourcing</h3>
+        <ul class="src-list">
+          <li>Leeks — <span class="muted">Harrow Marsh Farm, 6mi</span></li>
+          <li>Pearl barley — <span class="muted">Tamsen Mill, Northgate</span></li>
+          <li>Free-range eggs — <span class="muted">Cobble Lane Coop</span></li>
+          <li>Toasted seeds — <span class="muted">house blend, daily</span></li>
+          <li>Cold-pressed rapeseed — <span class="muted">Verdant Oils</span></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Build your bowl</h3>
+        <form class="build-form">
+          <label><input type="checkbox" checked> Soft-set egg</label>
+          <label><input type="checkbox"> Swap barley → freekeh</label>
+          <label><input type="checkbox"> Double leeks</label>
+          <label><input type="checkbox"> Hold the seeds (nut-free table)</label>
+          <label><input type="checkbox"> Extra chilli oil</label>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <section class="band band-plum">
+    <span class="ladle-tab tab-amber">Nutrition</span>
+    <table class="data-table">
+      <thead><tr><th>Per serving</th><th>Amount</th><th>% RI</th></tr></thead>
+      <tbody>
+        <tr><td>Energy</td><td class="mono">540 kcal</td><td class="mono">27%</td></tr>
+        <tr><td>Fat</td><td class="mono">22 g</td><td class="mono">31%</td></tr>
+        <tr><td>Saturates</td><td class="mono">5 g</td><td class="mono">25%</td></tr>
+        <tr><td>Carbohydrate</td><td class="mono">58 g</td><td class="mono">22%</td></tr>
+        <tr><td>Protein</td><td class="mono">19 g</td><td class="mono">38%</td></tr>
+        <tr><td>Salt</td><td class="mono">1.4 g</td><td class="mono">23%</td></tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section class="band band-teal">
+    <span class="ladle-tab">Pairs well with</span>
+    <div class="hot-grid">
+      <article class="dish-card"><svg viewBox="0 0 120 70" class="blob"><ellipse cx="60" cy="42" rx="40" ry="18" stroke="#1fae8b" stroke-width="2.5" fill="none"/></svg><h3>House Focaccia</h3><div class="chips"><span class="chip chip-amber">£4.00</span></div><a class="add-btn" href="detail.html">View</a></article>
+      <article class="dish-card"><svg viewBox="0 0 120 70" class="blob"><ellipse cx="60" cy="42" rx="40" ry="18" stroke="#7a3a6e" stroke-width="2.5" fill="none"/></svg><h3>Pickle Plate</h3><div class="chips"><span class="chip chip-amber">£5.00</span></div><a class="add-btn" href="detail.html">View</a></article>
+      <article class="dish-card"><svg viewBox="0 0 120 70" class="blob"><ellipse cx="60" cy="42" rx="40" ry="18" stroke="#f2b134" stroke-width="2.5" fill="none"/></svg><h3>Burnt Honey Custard</h3><div class="chips"><span class="chip chip-amber">£5.50</span></div><a class="add-btn" href="detail.html">View</a></article>
+    </div>
+  </section>
+
+  <section class="band band-plum">
+    <span class="ladle-tab tab-amber">Reviews</span>
+    <div class="reviews">
+      <div class="rev-tally">
+        <span class="big-rating mono">4.7</span><span class="stars">★★★★★</span>
+        <p class="mono">312 reviews</p>
+        <ul class="bars">
+          <li>5★ <span class="bar"><span style="width:74%"></span></span></li>
+          <li>4★ <span class="bar"><span style="width:18%"></span></span></li>
+          <li>3★ <span class="bar"><span style="width:5%"></span></span></li>
+          <li>2★ <span class="bar"><span style="width:2%"></span></span></li>
+          <li>1★ <span class="bar"><span style="width:1%"></span></span></li>
+        </ul>
+      </div>
+      <ul class="quote-list">
+        <li><strong>Priya R.</strong> <span class="chip chip-amber">5★</span><br>"The egg yolk situation is criminal. In a good way."</li>
+        <li><strong>Tom W.</strong> <span class="chip chip-amber">4★</span><br>"Leeks charred to within an inch of their lives. Glorious."</li>
+        <li><strong>Dee O.</strong> <span class="chip chip-amber">5★</span><br>"I order this twice a week and feel no shame."</li>
+        <li><strong>Marcus L.</strong> <span class="chip chip-amber">4★</span><br>"Wanted more seeds. Asked. They obliged. Heroes."</li>
+      </ul>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="foot-grid">
+    <div><h4>Hours</h4><ul><li>Mon–Thu <span class="mono">11:00–22:30</span></li><li>Sun <span class="mono">12:00–21:00</span></li></ul></div>
+    <div><h4>Allergens</h4><ul><li><a href="detail.html">Full index</a></li></ul></div>
+    <div><h4>Company</h4><ul><li><a href="about.html">Our story</a></li><li><a href="team.html">Careers</a></li></ul></div>
+    <div><h4>Sister kitchens</h4><ul><li><a href="about.html">Salt &amp; Spoon</a></li></ul></div>
+    <div><h4>Social</h4><ul><li><a href="contact.html">Instagram</a></li></ul></div>
+  </div>
+  <p class="fine">© Plum &amp; Ladle Ltd. Reg <span class="mono">04821993</span> · Built hot, delivered hotter.</p>
+</footer>
+</body>
+</html>

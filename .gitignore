@@ -1,0 +1,26 @@
+# Python
+venv/
+__pycache__/
+*.py[cod]
+*.log
+.pytest_cache/
+.ruff_cache/
+
+# Secrets / local config
+.env
+*.local.yaml
+
+# Harbor task artifacts — keep task definitions, drop large regenerable run outputs
+website-rl-eval-harbor/*/jobs/
+website-rl-eval-harbor/*/.build/
+jobs/
+
+# Scratch / generated
+_runlogs/
+_render_out/
+ladder/
+.gtmp/
+
+# OS / editor
+.DS_Store
+.claude/settings.local.json

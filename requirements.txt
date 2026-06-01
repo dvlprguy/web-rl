@@ -1,0 +1,27 @@
+# Pipeline dependencies. Python 3.13.
+#
+# The GRADER is fully offline — it needs only numpy / scipy / pillow + the `tesseract`
+# binary (a SYSTEM dependency: `apt install tesseract-ocr` or `brew install tesseract`),
+# plus a Playwright Chromium for rendering. No torch / no API key at grade time.
+
+# --- rendering (reference + agent), shared single path ---
+playwright==1.60.0          # + `playwright install chromium`
+
+# --- grader (offline, deterministic) ---
+numpy==2.4.6
+scipy==1.17.1               # block matching (linear_sum_assignment), SSIM, Sobel
+pillow==12.2.0
+# tesseract OCR backend is a SYSTEM binary, not a pip package (see note above)
+
+# --- site generation (two-stage LLM; needs ANTHROPIC_API_KEY) ---
+litellm==1.86.2
+
+# --- task packaging helpers ---
+beautifulsoup4==4.14.3      # degradation-ladder generators
+
+# --- the task runtime ---
+harbor==0.9.0               # `harbor run` / `hb` / `hr`; runs tasks on docker or modal
+modal==1.4.3                # optional: run tasks on Modal instead of local Docker
+
+# --- reporting / figures (scripts/) ---
+matplotlib==3.10.9

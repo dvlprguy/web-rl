@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Marshmallow &amp; Quill — Welcome to the soft side of travel</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="ribbon">
+  <div class="ribbon-inner">
+    <a href="home.html" class="wordmark">Marshmallow <span>&amp;</span> Quill</a>
+    <nav class="navlinks">
+      <a href="home.html" class="active"><span class="pill">Home</span></a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="team.html">Team</a>
+      <a href="faq.html">FAQ</a>
+      <a href="detail.html">Stays</a>
+      <a href="pricing.html">Pricing</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <svg class="sun-clouds" viewBox="0 0 320 140" aria-hidden="true">
+      <circle cx="90" cy="55" r="30" fill="#F6C97A"/>
+      <g stroke="#F6C97A" stroke-width="5" stroke-linecap="round">
+        <line x1="90" y1="8" x2="90" y2="20"/>
+        <line x1="50" y1="20" x2="58" y2="28"/>
+        <line x1="130" y1="20" x2="122" y2="28"/>
+        <line x1="35" y1="55" x2="47" y2="55"/>
+      </g>
+      <g fill="#FFFFFF" stroke="#A7D3C9" stroke-width="2">
+        <circle cx="200" cy="70" r="22"/>
+        <circle cx="228" cy="72" r="26"/>
+        <circle cx="256" cy="70" r="20"/>
+        <rect x="198" y="78" width="62" height="16" rx="8" stroke="none" fill="#FFFFFF"/>
+      </g>
+    </svg>
+    <p class="eyebrow">Welcome, traveler</p>
+    <h1 class="hero-title">Soft places to land,<br><em>written by hand.</em></h1>
+    <p class="hero-sub">Find a hushed cottage, a coast house, or a quiet city nook — each one handpicked and tucked in with a note from us.</p>
+    <form class="search-stay" onsubmit="return false">
+      <input type="text" placeholder="Where would you like to land?" aria-label="Search stays">
+      <button type="submit" class="btn-primary">Find a stay</button>
+    </form>
+  </section>
+
+  <section class="mood-strip">
+    <span class="mood-pill mood-cozy">Cozy</span>
+    <span class="mood-pill mood-playful">Playful</span>
+    <span class="mood-pill mood-handpicked">Handpicked</span>
+  </section>
+
+  <section class="section">
+    <h2 class="sec-head">Featured postcards <svg class="squiggle" viewBox="0 0 200 12"><path d="M2 8 Q 18 1 34 8 T 66 8 T 98 8 T 130 8 T 162 8 T 194 8" fill="none" stroke="#F6C97A" stroke-width="3" stroke-linecap="round"/></svg></h2>
+    <div class="postcard-grid">
+      <article class="postcard">
+        <span class="stamp">🏕</span>
+        <div class="scene scene-tent">
+          <svg viewBox="0 0 200 120" aria-hidden="true">
+            <ellipse cx="120" cy="118" rx="120" ry="20" fill="#A7D3C9"/>
+            <polygon points="60,100 100,40 140,100" fill="#F4A8B4"/>
+            <polygon points="95,100 100,40 105,100" fill="#43394B" opacity="0.2"/>
+            <circle cx="160" cy="35" r="14" fill="#F6C97A"/>
+          </svg>
+        </div>
+        <h3>Hillcrest Hush</h3>
+        <p class="muted-line">A one-room cottage in the green folds.</p>
+        <a href="detail.html" class="ticket-link">Peek inside →</a>
+      </article>
+      <article class="postcard">
+        <span class="stamp">🌊</span>
+        <div class="scene scene-coast">
+          <svg viewBox="0 0 200 120" aria-hidden="true">
+            <rect x="0" y="70" width="200" height="50" fill="#A7D3C9"/>
+            <path d="M0 80 Q 50 70 100 80 T 200 80 V120 H0 Z" fill="#7FBFB3"/>
+            <rect x="40" y="40" width="40" height="30" rx="6" fill="#FFFFFF" stroke="#43394B" stroke-width="2"/>
+            <polygon points="38,40 60,22 82,40" fill="#F4A8B4"/>
+          </svg>
+        </div>
+        <h3>Salt &amp; Window</h3>
+        <p class="muted-line">A coast house with curtains that breathe.</p>
+        <a href="detail.html" class="ticket-link">Peek inside →</a>
+      </article>
+    </div>
+  </section>
+
+  <section class="section journal-teaser">
+    <h2 class="sec-head">From the journal <svg class="squiggle" viewBox="0 0 200 12"><path d="M2 8 Q 18 1 34 8 T 66 8 T 98 8 T 130 8 T 162 8 T 194 8" fill="none" stroke="#F6C97A" stroke-width="3" stroke-linecap="round"/></svg></h2>
+    <ul class="journal-list">
+      <li>
+        <span class="journal-glyph">☁</span>
+        <div><strong>On the art of the slow morning.</strong> We left a kettle whistling and a window wide; the fog did the rest.</div>
+      </li>
+      <li>
+        <span class="journal-glyph">🧳</span>
+        <div><strong>How to pack for a place you'll never want to leave.</strong> Fewer shoes, one good book, room for found pebbles.</div>
+      </li>
+      <li>
+        <span class="journal-glyph">🍵</span>
+        <div><strong>A teacup map of quiet towns.</strong> Where to sit, what to sip, and which bench keeps the best secrets.</div>
+      </li>
+    </ul>
+    <p class="footnote">* New notes appear whenever the kettle is on.</p>
+  </section>
+
+  <section class="newsletter-ribbon">
+    <div class="stamp-graphic">
+      <svg viewBox="0 0 60 60"><rect x="4" y="4" width="52" height="52" rx="6" fill="#FFF" stroke="#F4A8B4" stroke-width="2" stroke-dasharray="4 4"/><text x="30" y="40" text-anchor="middle" font-size="26">✉</text></svg>
+    </div>
+    <div>
+      <h2>Letters, not lots of email.</h2>
+      <p>A gentle note now and then — new stays, slow ideas, nothing loud.</p>
+    </div>
+    <form class="nl-form" onsubmit="return false">
+      <input type="email" placeholder="your@address" aria-label="Email">
+      <button class="btn-primary">Subscribe</button>
+    </form>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <svg class="foot-squiggle" viewBox="0 0 1200 16" preserveAspectRatio="none"><path d="M0 8 Q 30 1 60 8 T 120 8 T 180 8 T 240 8 T 300 8 T 360 8 T 420 8 T 480 8 T 540 8 T 600 8 T 660 8 T 720 8 T 780 8 T 840 8 T 900 8 T 960 8 T 1020 8 T 1080 8 T 1140 8 T 1200 8" fill="none" stroke="#F4A8B4" stroke-width="3"/></svg>
+  <div class="foot-inner">
+    <div>
+      <p class="wordmark small">Marshmallow &amp; Quill</p>
+      <p class="footnote">Soft places to land, written by hand.</p>
+    </div>
+    <nav class="foot-map">
+      <a href="home.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="team.html">Team</a>
+      <a href="faq.html">FAQ</a>
+      <a href="detail.html">Stays</a>
+      <a href="pricing.html">Pricing</a>
+    </nav>
+  </div>
+</footer>
+</body>
+</html>
